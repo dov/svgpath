@@ -3,3 +3,12 @@ build*
 catch.hpp
 .directory
 .vscode
+*.cmake
+CMakeFiles/
+Makefile
+*.a
+/src/viewers/svgglyphviewer
+/src/viewers/svgpathviewer
+/CMakeCache.txt
+/samples/repoapp
+/samples/octicons.svg
