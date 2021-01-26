@@ -10,6 +10,7 @@ class SVGPATHAPI CairoContext: public GraphicsContext
 {
 public:
 	CairoContext(cairo_t *g);
+        virtual ~CairoContext() {};
 
 	void moveTo(double x, double y) override;
 	void lineTo(double x, double y) override;

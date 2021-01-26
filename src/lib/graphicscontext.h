@@ -5,6 +5,7 @@
 class SVGPATHAPI GraphicsContext
 {
 public:
+        virtual ~GraphicsContext() {};
 	virtual void moveTo(double x, double y) = 0;
 	virtual void lineTo(double x, double y) = 0;
 	virtual void curveTo(double x1, double y1, double x2, double y2, double x3, double y3) = 0;
